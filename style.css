@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d0ecff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 580px;
+    width: 350px;
+    background: linear-gradient(to bottom, #6c4bd6, #9b66d1);
+    color: white;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+  .location {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .location h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .location p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #d8cfff;
+  }
+  
+  .weather {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather img{
+    height: 80px;
+    width: 80px;
+  }
+  
+  .weather h1 {
+    font-size: 48px;
+    margin: 10px 0 5px;
+  }
+  
+  .weather p {
+    color: #e5d8ff;
+    margin: 0;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  
+  .detail-box p {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .detail-box strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .hourly {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .hour-box {
+    text-align: center;
+  }
+  
+  .hour-box p {
+    margin: 2px 0;
+  }
+
+.navbar{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10px 10px 10px
+}
+
+.search{
+  height: 40px;
+  width: 240px;
+  background-color: transparent;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 25px;
+  color: white;
+}
+
+.search::placeholder{
+  color: white;
+}
+
+.navbar i{
+  position: relative;
+  top: 28px;
+  right: 105px;
+  font-size: 1.1rem;
+}
+
+.btn{
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  border: 2px solid #6c4bd6;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #6c4bd6;
+}
